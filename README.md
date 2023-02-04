@@ -14,7 +14,7 @@
  ## Setup redis locally
   if using locally instance run:  
   ```
-sudo docker run --name redis -p 6379:6379 -d -t redis:alpine
+sudo docker run --name redis -p port:port -d -t redis:alpine
 ```
 
 ## Start 
